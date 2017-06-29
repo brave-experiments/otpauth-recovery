@@ -1,0 +1,17 @@
+[
+  {
+    "url": "otpauth://totp/ACME%20Co:john.doe@email.com?secret=HXDMVJECJJWSRB3HWIZR4IFUGFTMXBOZ&issuer=ACME%20Co&algorithm=SHA1&digits=6&period=30"
+  },
+  {
+    "url" : "otpauth://totp/Example:alice@google.com?secret=JBSWY3DPEHPK3PXP&issuer=Example"
+  },
+  {
+    "url" : "otpauth://totp/Provider1:Alice%20Smith?secret=JBSWY3DPEHPK3PXP&issuer=Example"
+  },
+  {
+    "url" : "otpauth://totp/Big%20Corporation%3A%20alice%40bigco.com?secret=JBSWY3DPEHPK3PXP&issuer=Example"
+  },
+  {
+    "url" : "otpauth://totp/no_issuer?secret=JBSWY3DPEHPK3PXP&issuer=Example"
+  }
+]

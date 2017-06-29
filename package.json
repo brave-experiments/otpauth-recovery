@@ -1,0 +1,40 @@
+{
+  "name": "otpauth-recovery",
+  "version": "0.0.1",
+  "description": "Generate QR codes for otpauth URLs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run test-security",
+    "test-security": "nsp check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brave/otpauth-recovery"
+  },
+  "author": "Brave Developers <support@brave.com>",
+  "license": "MPL-2.0",
+  "bin": {
+    "otpauth-recovery" : "./bin/offline-create-keychains"
+  },
+  "bugs": {
+    "url": "https://github.com/brave/otpauth-recovery/issues"
+  },
+  "homepage": "https://github.com/brave/otpauth-recovery",
+  "dependencies": {
+    "qr-image": "3.2.0",
+    "underscore": "1.8.3"
+  },
+  "engines": {
+    "node": "7.8.0",
+    "npm": "4.2.0"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-standard": "^10.0.0",
+    "nsp": "^2.2.0",
+    "run-sequence": "^1.1.0",
+    "standard": "10.0.2"
+  }
+}

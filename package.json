@@ -1,6 +1,6 @@
 {
   "name": "otpauth-recovery",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate QR codes for otpauth URLs",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "author": "Brave Developers <support@brave.com>",
   "license": "MPL-2.0",
   "bin": {
-    "otpauth-recovery" : "./bin/offline-create-keychains"
+    "otpauth-recovery" : "./bin/otpauth-recovery"
   },
   "bugs": {
     "url": "https://github.com/brave/otpauth-recovery/issues"

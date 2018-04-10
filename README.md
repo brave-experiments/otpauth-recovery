@@ -31,4 +31,4 @@ The ideal set-up is to then store the OTP credentials on a hardware device
 or [YubiKey 4C](https://www.yubico.com/product/yubikey-4-series/#yubikey-4c),
 using a program
 (e.g.,
-[Yubico Authenticator](https://www.yubico.com/support/knowledge-base/categories/articles/yubico-authenticator-download/)).
+[Yubico Authenticator](https://www.yubico.com/products/services-software/download/yubico-authenticator/)).
